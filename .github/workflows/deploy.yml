@@ -25,7 +25,6 @@ jobs:
         CI: false
       run: |
         npm run build
-        sed -i 's/<script src="\/static\/js\//<script src="static\/js\//gi' ./build/index.html
     
     - name: NoJekyll ❌
       run: |
