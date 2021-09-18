@@ -25,6 +25,7 @@ jobs:
         CI: false
       run: |
         npm run build
+        find ./build/ -not -path '*/\.*'
     
     - name: NoJekyll ❌
       run: |
