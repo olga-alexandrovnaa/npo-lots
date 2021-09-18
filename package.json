@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "/",
+  "homepage": "/npo-lots/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "build": "react-scripts build",
     "test": "echo 'tests passed!'"
   },
   "eslintConfig": {
