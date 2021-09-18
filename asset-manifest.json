@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.d7b88ab3.chunk.js",
-    "main.js.map": "/static/js/main.d7b88ab3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
-    "static/js/2.2bb11f7b.chunk.js": "/static/js/2.2bb11f7b.chunk.js",
-    "static/js/2.2bb11f7b.chunk.js.map": "/static/js/2.2bb11f7b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.e6a02c393520eac714ad48f3530724a8.js": "/precache-manifest.e6a02c393520eac714ad48f3530724a8.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.2bb11f7b.chunk.js.LICENSE.txt": "/static/js/2.2bb11f7b.chunk.js.LICENSE.txt"
+    "main.js": "/npo-lots/static/js/main.d7b88ab3.chunk.js",
+    "main.js.map": "/npo-lots/static/js/main.d7b88ab3.chunk.js.map",
+    "runtime-main.js": "/npo-lots/static/js/runtime-main.f8a10fc4.js",
+    "runtime-main.js.map": "/npo-lots/static/js/runtime-main.f8a10fc4.js.map",
+    "static/js/2.2bb11f7b.chunk.js": "/npo-lots/static/js/2.2bb11f7b.chunk.js",
+    "static/js/2.2bb11f7b.chunk.js.map": "/npo-lots/static/js/2.2bb11f7b.chunk.js.map",
+    "index.html": "/npo-lots/index.html",
+    "precache-manifest.453687fcabb6292bb4f38877bf0e046f.js": "/npo-lots/precache-manifest.453687fcabb6292bb4f38877bf0e046f.js",
+    "service-worker.js": "/npo-lots/service-worker.js",
+    "static/js/2.2bb11f7b.chunk.js.LICENSE.txt": "/npo-lots/static/js/2.2bb11f7b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.09b85ec0.js",
+    "static/js/runtime-main.f8a10fc4.js",
     "static/js/2.2bb11f7b.chunk.js",
     "static/js/main.d7b88ab3.chunk.js"
   ]
