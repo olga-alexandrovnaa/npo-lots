@@ -174,7 +174,7 @@ const App = () => {
               if(det.id === d.id){
                 let MathMin = minDet(Number(d.det1),Number(d.det2), Number(d.det3), Number(d.det4), Number(d.det5), Number(d.det6), Number(d.det7), Number(d.det8), Number(d.det9), Number(d.det10), Number(d.det11), Number(d.det12), Number(d.det13), Number(d.det14), Number(d.det15))
 
-                if(MathMin<min ){
+                if(MathMin<min || min===0){
                   min = MathMin
                 }
               }
@@ -328,26 +328,28 @@ const App = () => {
 
     res.forEach(item => {
       console.log(item)
-      let arr2 = [item.name, ""]
-      for (let index = 0; index < max; index++) {
-        arr2.push("")
-      }
-      data.push(arr2)
-      item.det.forEach(det => {
-        let arr = ["", det.name]
-        det.lots.forEach(lot => {
-          arr.push(lot)
-        });
-        for (let index = 0; index < max - det.lots.length; index++) {
-          arr.push("")
+      if(item.name !== ""){
+        let arr2 = [item.name, ""]
+        for (let index = 0; index < max; index++) {
+          arr2.push("")
         }
-        data.push(arr)
-      })
-      let arr3 = ["", ""]
-      for (let index = 0; index < max; index++) {
-        arr3.push("")
+        data.push(arr2)
+        item.det.forEach(det => {
+          let arr = ["", det.name]
+          det.lots.forEach(lot => {
+            arr.push(lot)
+          });
+          for (let index = 0; index < max - det.lots.length; index++) {
+            arr.push("")
+          }
+          data.push(arr)
+        })
+        let arr3 = ["", ""]
+        for (let index = 0; index < max; index++) {
+          arr3.push("")
+        }
+        data.push(arr3)
       }
-      data.push(arr3)
     })
 
     console.log(data)
@@ -876,3 +878,4 @@ const App = () => {
 export default App;
 
 ReactDOM.render(<App />, document.getElementById("react-root"));
+
